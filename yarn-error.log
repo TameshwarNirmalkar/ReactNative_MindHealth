@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\Admin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Admin\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Yarn\bin;C:\Program Files (x86)\Sennheiser\SenncomSDK;C:\Program Files\Git\cmd;C:\Users\Admin\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Admin\AppData\Local\Programs\Python\Python39;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;C:\Users\Admin\AppData\Local\Yarn\bin;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2020.3.2\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: 2244:error:1408F119:SSL routines:ssl3_get_record:decryption failed or bad record mac:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:677:
+
+npm manifest: 
+  {
+    "main": "index.js",
+    "scripts": {
+      "android": "react-native run-android",
+      "ios": "react-native run-ios",
+      "web": "expo start --web",
+      "start": "react-native start",
+      "test": "jest"
+    },
+    "dependencies": {
+      "expo": "~40.0.0",
+      "expo-splash-screen": "~0.8.0",
+      "expo-status-bar": "~1.0.3",
+      "expo-updates": "~0.4.0",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "~0.63.4",
+      "react-native-gesture-handler": "~1.8.0",
+      "react-native-reanimated": "~1.13.0",
+      "react-native-screens": "~2.15.0",
+      "react-native-unimodules": "~0.12.0",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0",
+      "babel-jest": "~25.2.6",
+      "jest": "~25.2.6",
+      "react-test-renderer": "~16.13.1"
+    },
+    "jest": {
+      "preset": "react-native"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
